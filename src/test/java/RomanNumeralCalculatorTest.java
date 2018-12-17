@@ -34,6 +34,7 @@ public class RomanNumeralCalculatorTest {
   }
 
   @Test
+  @Ignore
   public void twoPlusTwoIsFour() {
 
     String actualResult = calculator.add("II", "II");
@@ -150,6 +151,23 @@ public class RomanNumeralCalculatorTest {
     String simplified = calculator.simplifyNumeral("IIIII");
 
     assertEquals("V", simplified);
+  }
+
+  @Test
+  public void GivenVVVSimplifyReturnsXV() {
+
+    String simplified = calculator.simplifyNumeral("VVV");
+
+    assertEquals("XV", simplified);
+  }
+
+  @Test
+  @Ignore
+  public void GivenVVIIIIIIIISimplifyReturnsXVIII() {
+
+    String simplified = calculator.simplifyNumeral("VVIIIIIIII");
+
+    assertEquals("XVIII", simplified);
   }
 
   @Test

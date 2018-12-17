@@ -3,7 +3,7 @@ import java.util.stream.Collectors;
 
 public class RomanNumeralCalculator {
 
-    HashMap<String, String> expandTable = new HashMap<String, String>() {{
+    LinkedHashMap<String, String> expandTable = new LinkedHashMap<String, String>() {{
         put("IV", "IIII");
         put("IX", "VIIII");
         put("XL", "XXXX");
@@ -12,7 +12,7 @@ public class RomanNumeralCalculator {
         put("CM", "DCCCC");
     }};
 
-    HashMap<String, String> compactTable = new HashMap<String, String>() {{
+    LinkedHashMap<String, String> compactTable = new LinkedHashMap<String, String>() {{
         put("IIIII", "V");
         put("VV", "X");
         put("XXXXX", "L");
@@ -112,8 +112,19 @@ public class RomanNumeralCalculator {
     }
 
     public String simplifyNumeral(String numeral) {
+        
+        String newNumeral = numeral;
 
-        return compactTable.get(numeral);
+        for(String s : compactTable.keySet()) {
+            if(newNumeral.contains(s)) {
+                int index = newNumeral.indexOf(s);
+                String s1 = newNumeral.substring(0, 0);
+                String s2 = newNumeral.substring(index + s.length());
+                newNumeral = s1 + compactTable.get(s) + s2;
+            }
+        }
+
+        return newNumeral;
     }
 }
 
