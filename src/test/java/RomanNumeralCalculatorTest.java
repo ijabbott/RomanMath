@@ -34,7 +34,6 @@ public class RomanNumeralCalculatorTest {
   }
 
   @Test
-  @Ignore
   public void twoPlusTwoIsFour() {
 
     String actualResult = calculator.add("II", "II");
@@ -44,7 +43,6 @@ public class RomanNumeralCalculatorTest {
   }
 
   @Test
-  @Ignore
   public void twoPlusThreeIsFive() {
 
     String actualResult = calculator.add("II", "III");
@@ -54,7 +52,6 @@ public class RomanNumeralCalculatorTest {
   }
 
   @Test
-  @Ignore
   public void fivePlusFiveIsTen() {
 
     String actualResult = calculator.add("V", "V");
@@ -74,7 +71,6 @@ public class RomanNumeralCalculatorTest {
   }
 
   @Test
-  @Ignore
   public void fivePlusFourIsNine() {
 
     String actualResult = calculator.add("IV", "V");

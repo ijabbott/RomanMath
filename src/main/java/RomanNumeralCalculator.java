@@ -43,21 +43,18 @@ public class RomanNumeralCalculator {
         int currentLetterCounter = 0;
         char[] previousLetter = {};
 
-        /*for (int i = 0; i < combined.length() - 1; i++) {
-            previousLetter = currentLetter;
-            combined.getChars(i, i, currentLetter, 0);
-            currentLetterCounter++;
-            if(numeralValues.get(currentLetter) > numeralValues.get(previousLetter)) {
-                subtractive = previousLetter.toString() + currentLetter.toString();
-                subtractive = subtractiveTable.get(subtractive);
-            }
+        // expand numeral1 and numeral2
 
-        }*/
+        // concat numeral1 and numeral2
 
+        // sort numeral
+
+        // simplify numeral
+
+        combined = numeral1 + numeral2;
 
 
-
-        return numeral1 + numeral2;
+        return simplifyNumeral(combined);
 
     }
 
@@ -125,7 +122,6 @@ public class RomanNumeralCalculator {
                     String s2 = newNumeral.substring(index + s.length());
                     newNumeral = s1 + compactTable.get(s) + s2;
                     repeatFlag = true;
-                    System.out.println(newNumeral);
                 }
             }
         } while (repeatFlag);
