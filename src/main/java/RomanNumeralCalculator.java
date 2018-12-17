@@ -4,13 +4,22 @@ import java.util.stream.Collectors;
 
 public class RomanNumeralCalculator {
 
-    HashMap<String, String> subtractiveTable = new HashMap<String, String>() {{
+    HashMap<String, String> fromSubtractiveTable = new HashMap<String, String>() {{
         put("IV", "IIII");
         put("IX", "VIIII");
         put("XL", "XXXX");
         put("XC", "LXXXX");
         put("CD", "CCCC");
         put("CM", "DCCCC");
+    }};
+
+    HashMap<String, String> toSubtractiveTable = new HashMap<String, String>() {{
+        put("IIII", "IV");
+        put("VIIII", "IX");
+        put("XXXX", "XL");
+        put("LXXXX", "XC");
+        put("CCCC", "CD");
+        put("DCCCC", "CM");
     }};
 
     HashMap<String, String> compactTable = new HashMap<String, String>() {{
@@ -58,7 +67,7 @@ public class RomanNumeralCalculator {
 
 
     public boolean isSubtractive(String romanNumeral) {
-        return subtractiveTable.containsKey(romanNumeral);
+        return fromSubtractiveTable.containsKey(romanNumeral);
     }
 
     public String expandSubtractiveNumerals(String numeral) {
@@ -67,7 +76,7 @@ public class RomanNumeralCalculator {
         stringToNumeralArray(numeral, list);
 
         if(this.isSubtractive(numeral)) {
-            return subtractiveTable.get(numeral);
+            return fromSubtractiveTable.get(numeral);
         }
 
         if(numeral.length() == 1) {
@@ -76,12 +85,11 @@ public class RomanNumeralCalculator {
 
         for(int i = 0; i < list.size() - 1; i++) {
             if(list.get(i).compareTo(list.get(i + 1)) < 0) {
-                expandedString = expandedString + "" + subtractiveTable.get("" + list.get(i).toString() + list.get(i + 1).toString());
+                expandedString = expandedString + "" + fromSubtractiveTable.get("" + list.get(i).toString() + list.get(i + 1).toString());
                 i++;
             } else {
                 expandedString = expandedString + "" + list.get(i).toString();
             }
-
         }
 
         return expandedString;
@@ -105,6 +113,11 @@ public class RomanNumeralCalculator {
         for(char c : unsorted.toCharArray()) {
             list.add(new RomanNumeral(Character.toString(c)));
         }
+    }
+
+    public String simplifyNumeral(String numeral) {
+
+        return toSubtractiveTable.get(numeral);
     }
 }
 

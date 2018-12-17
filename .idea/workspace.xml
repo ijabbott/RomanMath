@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a625796d-198e-4846-9a71-c4236e1a27bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/RomanNumeralCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/RomanNumeralCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/RomanNumeralCalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/RomanNumeralCalculatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RomanNumeralCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RomanNumeralCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RomanNumeralCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RomanNumeralCalculatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,20 +49,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RomanNumeralCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="128" column="26" selection-start-line="128" selection-start-column="26" selection-end-line="128" selection-end-column="26" />
+            <state relative-caret-position="290">
+              <caret line="141" column="38" selection-start-line="141" selection-start-column="38" selection-end-line="141" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/RomanNumeralCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
+            <state relative-caret-position="447">
+              <caret line="119" column="47" selection-start-line="119" selection-start-column="47" selection-end-line="119" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,8 +89,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/RomanNumeralTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/RomanNumeral.java" />
-        <option value="$PROJECT_DIR$/src/main/java/RomanNumeralCalculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/RomanNumeralCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RomanNumeralCalculator.java" />
       </list>
     </option>
   </component>
@@ -152,7 +156,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545078150191" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545078785183" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RunDashboard">
@@ -216,15 +220,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RomanNumeralCalculatorTest - 2018.12.17 at 13h 15m 52s.xml">
-      <configuration name="RomanNumeralCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanNumeralCalculatorTest - 2018.12.17 at 13h 19m 08s.xml">
-      <configuration name="RomanNumeralCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanNumeralCalculatorTest - 2018.12.17 at 13h 20m 51s.xml">
-      <configuration name="RomanNumeralCalculatorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RomanNumeralCalculatorTest - 2018.12.17 at 13h 36m 19s.xml">
       <configuration name="RomanNumeralCalculatorTest" configurationId="JUnit" />
     </history-entry>
@@ -246,6 +241,15 @@
     <history-entry file="RomanNumeralCalculatorTest - 2018.12.17 at 14h 12m 18s.xml">
       <configuration name="RomanNumeralCalculatorTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RomanNumeralCalculatorTest - 2018.12.17 at 14h 21m 46s.xml">
+      <configuration name="RomanNumeralCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanNumeralCalculatorTest - 2018.12.17 at 14h 22m 31s.xml">
+      <configuration name="RomanNumeralCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanNumeralCalculatorTest - 2018.12.17 at 14h 24m 09s.xml">
+      <configuration name="RomanNumeralCalculatorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="961" extended-state="6" />
@@ -256,7 +260,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.32911393" />
@@ -264,8 +268,8 @@
       <window_info anchor="bottom" id="Build" weight="0.32911393" />
       <window_info anchor="bottom" id="Messages" weight="0.32911393" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32911393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -300,20 +304,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RomanNumeral.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="33" column="98" lean-forward="true" selection-start-line="33" selection-start-column="98" selection-end-line="33" selection-end-column="98" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -335,20 +325,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RomanNumeralCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/RomanNumeral.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
+        <state relative-caret-position="354">
+          <caret line="33" column="98" lean-forward="true" selection-start-line="33" selection-start-column="98" selection-end-line="33" selection-end-column="98" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RomanNumeralCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="128" column="26" selection-start-line="128" selection-start-column="26" selection-end-line="128" selection-end-column="26" />
+        <state relative-caret-position="290">
+          <caret line="141" column="38" selection-start-line="141" selection-start-column="38" selection-end-line="141" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RomanNumeralCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="119" column="47" selection-start-line="119" selection-start-column="47" selection-end-line="119" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
