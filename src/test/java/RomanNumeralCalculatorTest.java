@@ -123,6 +123,13 @@ public class RomanNumeralCalculatorTest {
   }
 
   @Test
+  public void GivenXLIVExpandReturnsXXXXIIII() {
+    String simplifed = calculator.expandSubtractiveNumerals("XLIV");
+
+    assertEquals("XXXXIIII", simplifed);
+  }
+
+  @Test
   public void GivenXExpandReturnsX() {
 
     String simplified = calculator.expandSubtractiveNumerals("X");
