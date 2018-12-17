@@ -1,4 +1,6 @@
-import java.util.HashMap;
+import java.lang.reflect.Array;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class RomanNumeralCalculator {
 
@@ -67,7 +69,19 @@ public class RomanNumeralCalculator {
     }
 
     public String sortExpandedNumerals(String unsorted) {
-        return "VVIIIIIIII";
+        List<RomanNumeral> list = new ArrayList<>();
+
+        stringToNumeralArray(unsorted, list);
+
+        list.sort(Collections.reverseOrder());
+
+        return list.stream().map(RomanNumeral::toString).collect(Collectors.joining());
+    }
+
+    private void stringToNumeralArray(String unsorted, List<RomanNumeral> list) {
+        for(char c : unsorted.toCharArray()) {
+            list.add(new RomanNumeral(Character.toString(c)));
+        }
     }
 }
 

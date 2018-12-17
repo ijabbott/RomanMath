@@ -130,4 +130,11 @@ public class RomanNumeralCalculatorTest {
 
     assertEquals("VVIIIIIIII", sorted);
   }
+
+  @Test
+  public void GivenVIIIIXSortReturnsXVIIII() {
+    String sorted = calculator.sortExpandedNumerals("VIIIIX");
+
+    assertEquals("XVIIII", sorted);
+  }
 }
