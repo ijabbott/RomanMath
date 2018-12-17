@@ -1,11 +1,22 @@
+import java.util.Arrays;
 import java.util.Comparator;
+import java.util.List;
 
 public class RomanNumeral implements Comparable<RomanNumeral> {
 
     private String numeralString;
 
-    public RomanNumeral(String numeralString) {
+    private enum Numerals {
+        I,
+        V,
+        X,
+        L,
+        C,
+        D,
+        M;
+    }
 
+    public RomanNumeral(String numeralString) {
         this.numeralString = numeralString;
     }
 
@@ -14,14 +25,13 @@ public class RomanNumeral implements Comparable<RomanNumeral> {
         return numeralString;
     }
 
-
     @Override
     public int compareTo(RomanNumeral o) {
 
         if(o.toString().equals(numeralString)) {
             return 0;
         }
-        if(o.toString().equals("V")) {
+        if(Numerals.valueOf(numeralString).ordinal() < Numerals.valueOf(o.toString()).ordinal()) {
             return -1;
         }
         return 1;
