@@ -112,17 +112,23 @@ public class RomanNumeralCalculator {
     }
 
     public String simplifyNumeral(String numeral) {
-        
-        String newNumeral = numeral;
 
-        for(String s : compactTable.keySet()) {
-            if(newNumeral.contains(s)) {
-                int index = newNumeral.indexOf(s);
-                String s1 = newNumeral.substring(0, 0);
-                String s2 = newNumeral.substring(index + s.length());
-                newNumeral = s1 + compactTable.get(s) + s2;
+        String newNumeral = numeral;
+        boolean repeatFlag = false;
+
+        do {
+            repeatFlag = false;
+            for (String s : compactTable.keySet()) {
+                if (newNumeral.contains(s)) {
+                    int index = newNumeral.indexOf(s);
+                    String s1 = newNumeral.substring(0, index);
+                    String s2 = newNumeral.substring(index + s.length());
+                    newNumeral = s1 + compactTable.get(s) + s2;
+                    repeatFlag = true;
+                    System.out.println(newNumeral);
+                }
             }
-        }
+        } while (repeatFlag);
 
         return newNumeral;
     }

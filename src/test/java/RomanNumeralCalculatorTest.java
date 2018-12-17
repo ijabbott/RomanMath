@@ -162,12 +162,19 @@ public class RomanNumeralCalculatorTest {
   }
 
   @Test
-  @Ignore
   public void GivenVVIIIIIIIISimplifyReturnsXVIII() {
 
     String simplified = calculator.simplifyNumeral("VVIIIIIIII");
 
     assertEquals("XVIII", simplified);
+  }
+
+  @Test
+  public void GivenVVVVSimplifyReturnsXX() {
+
+    String simplified = calculator.simplifyNumeral("VVVV");
+
+    assertEquals("XX", simplified);
   }
 
   @Test
