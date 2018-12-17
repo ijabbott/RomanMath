@@ -140,6 +140,16 @@ public class RomanNumeralCalculatorTest {
   public void GivenIIIISimplifyReturnsIV() {
 
     String simplified = calculator.simplifyNumeral("IIII");
+
+    assertEquals("IV", simplified);
+  }
+
+  @Test
+  public void GivenIIIIISimplifyReturnsV() {
+
+    String simplified = calculator.simplifyNumeral("IIIII");
+
+    assertEquals("V", simplified);
   }
 
   @Test
