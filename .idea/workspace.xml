@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a625796d-198e-4846-9a71-c4236e1a27bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/RomanNumeralCalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/RomanNumeralCalculatorTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RomanNumeralCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RomanNumeralCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RomanNumeralCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RomanNumeralCalculatorTest.java" afterDir="false" />
     </list>
@@ -51,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RomanNumeralCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2451">
-              <caret line="137" column="35" lean-forward="true" selection-start-line="137" selection-start-column="35" selection-end-line="137" selection-end-column="35" />
+            <state relative-caret-position="394">
+              <caret line="121" column="37" lean-forward="true" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -60,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/RomanNumeralCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+            <state relative-caret-position="96">
+              <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,7 +154,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545074449868" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545077793979" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RunDashboard">
@@ -219,34 +218,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RomanNumeralCalculatorTest_GivenVIIIIXSortReturnsXVIIII - 2018.12.17 at 12h 58m 56s.xml">
-      <configuration name="RomanNumeralCalculatorTest.GivenVIIIIXSortReturnsXVIIII" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanNumeralCalculatorTest_GivenVIIIIXSortReturnsXVIIII - 2018.12.17 at 12h 59m 18s.xml">
-      <configuration name="RomanNumeralCalculatorTest.GivenVIIIIXSortReturnsXVIIII" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanNumeralCalculatorTest_GivenVIIIIXSortReturnsXVIIII - 2018.12.17 at 13h 01m 20s.xml">
-      <configuration name="RomanNumeralCalculatorTest.GivenVIIIIXSortReturnsXVIIII" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanNumeralCalculatorTest_GivenVIIIIXSortReturnsXVIIII - 2018.12.17 at 13h 02m 13s.xml">
-      <configuration name="RomanNumeralCalculatorTest.GivenVIIIIXSortReturnsXVIIII" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanNumeralCalculatorTest - 2018.12.17 at 13h 02m 23s.xml">
-      <configuration name="RomanNumeralCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanNumeralCalculatorTest - 2018.12.17 at 13h 05m 54s.xml">
-      <configuration name="RomanNumeralCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanNumeralCalculatorTest - 2018.12.17 at 13h 06m 52s.xml">
-      <configuration name="RomanNumeralCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanNumeralCalculatorTest - 2018.12.17 at 13h 11m 56s.xml">
-      <configuration name="RomanNumeralCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanNumeralCalculatorTest - 2018.12.17 at 13h 15m 14s.xml">
-      <configuration name="RomanNumeralCalculatorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RomanNumeralCalculatorTest - 2018.12.17 at 13h 15m 52s.xml">
+      <configuration name="RomanNumeralCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanNumeralCalculatorTest - 2018.12.17 at 13h 19m 08s.xml">
+      <configuration name="RomanNumeralCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanNumeralCalculatorTest - 2018.12.17 at 13h 20m 51s.xml">
+      <configuration name="RomanNumeralCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanNumeralCalculatorTest - 2018.12.17 at 13h 36m 19s.xml">
+      <configuration name="RomanNumeralCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanNumeralCalculatorTest - 2018.12.17 at 13h 57m 15s.xml">
+      <configuration name="RomanNumeralCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanNumeralCalculatorTest - 2018.12.17 at 13h 57m 41s.xml">
+      <configuration name="RomanNumeralCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanNumeralCalculatorTest - 2018.12.17 at 13h 58m 42s.xml">
+      <configuration name="RomanNumeralCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanNumeralCalculatorTest - 2018.12.17 at 14h 07m 22s.xml">
+      <configuration name="RomanNumeralCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanNumeralCalculatorTest - 2018.12.17 at 14h 09m 51s.xml">
+      <configuration name="RomanNumeralCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanNumeralCalculatorTest - 2018.12.17 at 14h 12m 18s.xml">
       <configuration name="RomanNumeralCalculatorTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -317,13 +316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RomanNumeralTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -331,17 +323,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RomanNumeralTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RomanNumeralCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2451">
-          <caret line="137" column="35" lean-forward="true" selection-start-line="137" selection-start-column="35" selection-end-line="137" selection-end-column="35" />
+        <state relative-caret-position="394">
+          <caret line="121" column="37" lean-forward="true" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="2025" column="35" selection-start-line="2025" selection-start-column="32" selection-end-line="2025" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RomanNumeralCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+        <state relative-caret-position="96">
+          <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

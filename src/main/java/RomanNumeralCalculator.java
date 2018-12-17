@@ -62,10 +62,32 @@ public class RomanNumeralCalculator {
     }
 
     public String expandSubtractiveNumerals(String numeral) {
+        List<RomanNumeral> list = new ArrayList<>();
+        String expandedString = new String();
+        stringToNumeralArray(numeral, list);
+
         if(this.isSubtractive(numeral)) {
             return subtractiveTable.get(numeral);
         }
-        return numeral;
+
+        if(numeral.length() == 1) {
+            return numeral;
+        }
+
+        for(int i = 0; i < list.size() - 1; i++) {
+            if(list.get(i).compareTo(list.get(i + 1)) < 0) {
+                expandedString = expandedString + "" + subtractiveTable.get("" + list.get(i).toString() + list.get(i + 1).toString());
+            } else {
+                expandedString = expandedString + "" + list.get(i).toString();
+            }
+
+        }
+
+        return expandedString;
+    }
+
+    private String numeralListToString(List<RomanNumeral> expandedList) {
+        return expandedList.stream().map(RomanNumeral::toString).collect(Collectors.joining());
     }
 
     public String sortExpandedNumerals(String unsorted) {
@@ -75,7 +97,7 @@ public class RomanNumeralCalculator {
 
         list.sort(Collections.reverseOrder());
 
-        return list.stream().map(RomanNumeral::toString).collect(Collectors.joining());
+        return numeralListToString(list);
     }
 
     private void stringToNumeralArray(String unsorted, List<RomanNumeral> list) {

@@ -100,7 +100,7 @@ public class RomanNumeralCalculatorTest {
   }
 
   @Test
-  public void GivenIVReturnsIIII() {
+  public void GivenIVExpandReturnsIIII() {
 
     String simplified = calculator.expandSubtractiveNumerals("IV");
 
@@ -108,7 +108,7 @@ public class RomanNumeralCalculatorTest {
   }
 
   @Test
-  public void GivenIXReturnsVIIII() {
+  public void GivenIXExpandReturnsVIIII() {
 
     String simplified = calculator.expandSubtractiveNumerals("IX");
 
@@ -116,7 +116,14 @@ public class RomanNumeralCalculatorTest {
   }
 
   @Test
-  public void GivenXReturnsX() {
+  public void GivenXIVExpandReturnsXIIII() {
+    String simplifed = calculator.expandSubtractiveNumerals("XIV");
+
+    assertEquals("XIIII", simplifed);
+  }
+
+  @Test
+  public void GivenXExpandReturnsX() {
 
     String simplified = calculator.expandSubtractiveNumerals("X");
 
