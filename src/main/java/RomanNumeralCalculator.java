@@ -20,28 +20,22 @@ public class RomanNumeralCalculator {
         put("CCCCC", "D");
         put("DD", "M");
         put("IIII", "IV");
+        put("VIV", "IX");
         put("VIIII", "IX");
         put("XXXX", "XL");
+        put("LXL", "XC");
         put("LXXXX", "XC");
         put("CCCC", "CD");
+        put("DMD", "CM");
         put("DCCCC", "CM");
     }};
 
     public String add(String numeral1, String numeral2) {
-        HashMap<String, Integer> numeralValues = new HashMap<String, Integer>() {{
-            put("I", 1);
-            put("IV", 2);
-            put("V", 3);
-            put("IX", 4);
-            put("X", 5);
-        }};
 
 
-        String combined = numeral1 + numeral2;
-        String subtractive = "";
-        char[] currentLetter = {};
-        int currentLetterCounter = 0;
-        char[] previousLetter = {};
+
+        String combined = new String();
+
 
         // expand numeral1 and numeral2
 
@@ -51,8 +45,9 @@ public class RomanNumeralCalculator {
 
         // simplify numeral
 
-        combined = numeral1 + numeral2;
+        combined = expandSubtractiveNumerals(numeral1) + expandSubtractiveNumerals(numeral2);
 
+        combined = sortExpandedNumerals(combined);
 
         return simplifyNumeral(combined);
 
@@ -76,8 +71,8 @@ public class RomanNumeralCalculator {
             return numeral;
         }
 
-        for(int i = 0; i < list.size() - 1; i++) {
-            if(list.get(i).compareTo(list.get(i + 1)) < 0) {
+        for(int i = 0; i < list.size(); i++) {
+            if((i < list.size() - 1) && list.get(i).compareTo(list.get(i + 1)) < 0) {
                 expandedString = expandedString + "" + expandTable.get("" + list.get(i).toString() + list.get(i + 1).toString());
                 i++;
             } else {
