@@ -61,7 +61,6 @@ public class RomanNumeralCalculatorTest {
   }
 
   @Test
-  @Ignore
   public void onePlusFourIsFive() {
 
     String actualResult = calculator.add("I", "IV");
@@ -186,4 +185,12 @@ public class RomanNumeralCalculatorTest {
 
     assertEquals("XVIIII", sorted);
   }
+
+  @Test
+  public void GivenCCCLXIXPlusDCCCXLVReturnsMCCXIV() {
+    String sorted = calculator.add("CCCLXIX", "DCCCXLV");
+
+    assertEquals("MCCXIV", sorted);
+  }
+
 }
